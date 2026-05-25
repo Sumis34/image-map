@@ -7,7 +7,7 @@ function Home() {
 	return (
 		<div className="">
 			<div className="h-screen w-full">
-				<MapView activeLayers={["wanderland", "veloland"]} />
+				<MapView />
 			</div>
 		</div>
 	);
